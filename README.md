@@ -1,1 +1,1 @@
-# rsschool-cv
+https://OxygeniumO2.github.io/rsschool-cv/cv
