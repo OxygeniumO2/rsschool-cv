@@ -3,9 +3,9 @@
 * [E-mail](mailto:feikomilcezzz2@gmail.com)
 * [GitHub](https://github.com/OxygeniumO2)
 * [Telegram](https://t.me/hzhzzzhz)
-* [+380 97 221-57-11](callto:380972215711)
+* [url=tel:+4112345678]+380 97 221 57 11[/url]
 ## About myself:
-I'm student in RSSchool
+I'm student in **RSSchool**
 ## Skills
 * HTML
 * CSS
@@ -17,7 +17,7 @@ function multiply(a, b){
 ```
 ## Education:
 * ITStep
-    + System Egineering
+    + System Administration
 ## Languages:
 * **English** - A2
 * **Russian** - Native speaker
