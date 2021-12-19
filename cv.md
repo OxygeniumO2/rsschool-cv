@@ -3,7 +3,7 @@
 * [E-mail](mailto:feikomilcezzz2@gmail.com)
 * [GitHub](https://github.com/OxygeniumO2)
 * [Telegram](https://t.me/hzhzzzhz)
-* [+380 97 221 57 11](tel:+380972215711)
+* **Phone Number:** +380 97 221-57-11
 ## About myself:
 I'm student in **RSSchool**
 ## Skills
