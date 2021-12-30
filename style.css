@@ -191,6 +191,12 @@ a:hover {
   color: rgb(216, 24, 24);
 }
 
+.date {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(34, 93, 11);
+}
+
 @media (max-width: 800px) {
   .section {
     width: 85%;
