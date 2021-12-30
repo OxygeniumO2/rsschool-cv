@@ -29,10 +29,12 @@ body {
   justify-content: space-between;
   min-height: 100vh;
   font-family: 'NanumGothic';
-  font-size: 18px;
+  font-size: 19px;
   font-weight: 500;
   word-spacing: 5px;
   background-image: url(./assets/img/background-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
@@ -109,6 +111,11 @@ ul {
 
 .section-title-contacts {
   margin-bottom: 25px;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
 }
 
 .section-title-edu {
