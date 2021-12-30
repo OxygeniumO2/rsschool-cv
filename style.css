@@ -70,8 +70,8 @@ a {
 }
 
 .profile__photo img {
-  width: 210px;
-  height: 210px;
+  width: 220px;
+  height: 220px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 1px 1px 4px rgb(0, 0, 0);
