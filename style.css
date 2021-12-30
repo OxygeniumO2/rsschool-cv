@@ -183,18 +183,14 @@ ul {
     height: 80px;
 }
 
-.footer-git {
-  font-size: 21px;
-}
-
 a:hover {
   color: rgb(216, 24, 24);
 }
 
 .date {
   font-size: 20px;
-  font-weight: 500;
-  color: rgb(34, 93, 11);
+  font-weight: 600;
+  color: rgb(0, 0, 0);
 }
 
 @media (max-width: 800px) {
