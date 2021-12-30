@@ -1,1 +1,202 @@
-sas2
+@font-face {
+  font-family: 'NanumGothic';
+  src: url("assets/fonts/NanumGothic-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  src: url("assets/fonts/NanumGothic-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Nanum Gothic';
+  src: url("assets/fonts/NanumGothic-ExtraBold.ttf");
+  font-weight: 800;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  font-family: 'NanumGothic';
+  font-size: 18px;
+  font-weight: 500;
+  word-spacing: 5px;
+  background-image: url(./assets/img/background-img.jpg);
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1500px;
+  margin: 0 auto;
+  min-height: 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+.container-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  box-shadow: inset -5px 0px 8px 2px rgb(2, 32, 46), inset 5px 0px 8px 2px rgb(2, 32, 46);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 70px;
+  align-items: center;
+  background-color: rgb(209 190 183);
+  box-shadow: inset -5px 0px 8px 2px rgb(2, 32, 46), inset 5px 0px 8px 2px rgb(2, 32, 46), inset 0px -5px 8px 2px rgb(2, 32, 46);
+}
+
+.section {
+  width: 43%;
+  padding: 15px 0 15px 0;
+}
+
+.profile__photo img {
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.863);
+  filter: grayscale(0.2) brightness(1.05);
+  transition: .3s;
+}
+
+.profile {
+ display: flex;
+ justify-content: space-around;
+ padding: 30px;
+ align-items: center;
+ flex-wrap: wrap;
+ box-shadow: inset -5px 0px 8px 2px rgb(2, 32, 46), inset 5px 0px 8px 2px rgb(2, 32, 46), inset 0 5px 8px 2px rgb(2, 32, 46);
+}
+
+.profile__name {
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  word-spacing: 15px;
+  line-height: 50px;
+  color: rgb(26, 58, 13);
+}
+
+.profile__subtitle {
+  font-size: 23px;
+  text-align: center;
+  font-weight: 400;
+  word-spacing: 3px;
+  color: rgb(70, 67, 67);
+}
+
+ul {
+  list-style: none;
+}
+
+.section-title-contacts {
+  margin-bottom: 25px;
+}
+
+.section-title-edu {
+  margin-bottom: 20px;
+}
+
+.section-title-code {
+  margin-bottom: 25px;
+}
+
+.section .section-contacts {
+  padding-left: 15px;
+}
+
+.section-contacts li {
+  padding-bottom: 20px;
+}
+
+.section-contacts a,
+.section-contacts span,
+.footer-git {
+  vertical-align: middle;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  color: rgb(34, 93, 11);
+  font-weight: 600;
+  word-spacing: 1px;
+}
+
+.section-contacts span {
+  color: rgb(2, 32, 46);
+  font-weight: 500;
+  font-size: 17px;
+}
+
+.section-icon-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.section-title {
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color:rgb(34, 93, 11);
+  padding-bottom: 15px;
+  border-bottom: 1.5px solid black;
+}
+
+.section p {
+  color: rgb(2, 32, 46);
+  padding-top: 5px;
+  line-height: 25px;
+}
+
+
+
+.section-ul {
+  list-style-type: circle;
+  font-size: 25px;
+}
+
+.section-ul span {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.rss {
+    width: 120px;
+    height: 80px;
+}
+
+.footer-git {
+  font-size: 21px;
+}
+
+a:hover {
+  color: rgb(216, 24, 24);
+}
+
+@media (max-width: 800px) {
+  .section {
+    width: 85%;
+    order: 1;
+  }
+  .section-order-0 {
+    order: 0;
+  }
+}
