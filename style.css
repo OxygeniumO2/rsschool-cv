@@ -52,7 +52,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  box-shadow: inset -5px 0px 8px 2px rgb(2, 32, 46), inset 5px 0px 8px 2px rgb(2, 32, 46);
+  box-shadow: inset -4px -1px 8px 0px rgb(2 32 46), inset 4px -1px 8px 0px rgb(2 32 46);
 }
 
 .footer-container {
@@ -61,12 +61,16 @@ a {
   padding: 10px 70px;
   align-items: center;
   background-color: rgb(209 190 183);
-  box-shadow: inset -5px 0px 8px 2px rgb(2, 32, 46), inset 5px 0px 8px 2px rgb(2, 32, 46), inset 0px -5px 8px 2px rgb(2, 32, 46);
+  box-shadow: inset -4px -2px 8px 0px rgb(2 32 46), inset 4px -1px 8px 0px rgb(2 32 46);
 }
 
 .section {
   width: 43%;
-  padding: 25px 0 25px 0;
+  padding: 25px 0 15px 0;
+}
+
+.section-contacts-section {
+  margin-bottom: -35px;
 }
 
 .profile__photo img {
@@ -83,7 +87,7 @@ a {
  padding: 30px;
  align-items: center;
  flex-wrap: wrap;
- box-shadow: inset -5px 0px 8px 2px rgb(2, 32, 46), inset 5px 0px 8px 2px rgb(2, 32, 46), inset 0 5px 8px 2px rgb(2, 32, 46);
+ box-shadow: inset -4px 5px 8px 0px rgb(2 32 46), inset 4px 2px 8px 0px rgb(2 32 46);
 }
 
 .profile__name {
@@ -108,7 +112,7 @@ ul {
 }
 
 .section-title-contacts {
-  margin-bottom: 25px;
+  margin-bottom: 35px;
 }
 
 main {
